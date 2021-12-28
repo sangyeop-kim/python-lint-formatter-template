@@ -1,0 +1,17 @@
+{
+    "python.languageServer": "Pylance",
+    
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.formatting.blackArgs": [
+        "--skip-string-normalization",
+        "--line-length=94"
+    ],
+    "editor.wordWrapColumn": 94,
+    "editor.rulers": [94],
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=R0201, C0411, E1101",
+        "--variable-rgx=[a-z0-9_]{1,30}$",
+    ],
+}
